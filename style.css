@@ -36,7 +36,31 @@ img {
   display: block;
 }
 
-#planets {
+#dataFields {
+  padding: 0px 0px 5px 0px;
+  border-bottom: none;
+  text-align: center;
+}
+
+#earth {
+  padding: 0px 0px 5px 0px;
+  border-bottom: none;
+  text-align: center;
+}
+
+#jupiter {
+  padding: 0px 0px 5px 0px;
+  border-bottom: none;
+  text-align: center;
+}
+
+#saturn {
+  padding: 0px 0px 5px 0px;
+  border-bottom: none;
+  text-align: center;
+}
+
+#neptune {
   padding: 0px 0px 5px 0px;
   border-bottom: none;
   text-align: center;
