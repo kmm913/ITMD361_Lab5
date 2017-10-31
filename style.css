@@ -93,6 +93,7 @@ td{
   height: 10.9px;
   width: 10.9px;
   position: relative;
+  z-index: -1;
   animation: orbit 10s infinite;
 }
 
@@ -106,6 +107,7 @@ td{
   height: 120px;
   width: 120px;
   position: relative;
+  z-index: -1;
   animation: orbit2 119s infinite;
 }
 
@@ -119,6 +121,7 @@ td{
   height: 103.6px;
   width: 103.6px;
   position: relative;
+  z-index: -1;
   animation: orbit3 295s infinite;
 }
 
@@ -132,6 +135,7 @@ td{
   height: 42.5px;
   width: 42.5px;
   position: relative;
+  z-index: -1;
   animation: orbit4 1650s infinite;
 }
 
@@ -191,11 +195,11 @@ td{
     background: radial-gradient(circle at 75px 75px, white, yellow);
   }
   50% {
-    transform: translate3d(1300px, -5px, 0px);
+    transform: translate3d(1200px, -5px, 0px);
     background: radial-gradient(circle at 75px 75px, white, yellow);
   }
   75% {
-    transform: translate3d(1300px, -620px, 0px);
+    transform: translate3d(1200px, -620px, 0px);
     background: radial-gradient(circle at 75px 75px, white, yellow);
   }
   100% {
