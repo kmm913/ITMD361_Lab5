@@ -38,8 +38,17 @@ td{
   display: block;
   background: white;
   border-radius: 50%;
-  height: 75px;
-  width: 75px;
+  height: 5px;
+  width: 5px;
   margin: 0;
-  background: radial-gradient(circle at 100px 100px, gold, blue);
+  animation: pulse .5s infinite; 
+}
+
+@keyframes pulse {
+  0% {
+    background-color: black;
+  }
+  100% {
+    background: radial-gradient(circle at 75px 75px, white, blue);
+  }
 }
