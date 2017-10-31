@@ -40,16 +40,29 @@ td{
   border-radius: 50%;
   height: 50px;
   width: 50px;
-  position: absolute;
-  margin: 50px 50px 50px 50px;
-  animation: comet 10s infinite;
+  position: relative;
+  animation: orbit 10s infinite;
 }
 
-@keyframes comet {
-  0%  {background: radial-gradient(circle at 75px 75px, red, orange); left: 0px; top: 0px;}
-  20% {background: radial-gradient(circle at 75px 75px, orange, yellow); left: 0px; top: 0px;}
-  40% {background: radial-gradient(circle at 75px 75px, yellow, green); left: 0px; top: 600px;}
-  60% {background: radial-gradient(circle at 75px 75px, green, blue); left: 1200px; top: 600px;}
-  80% {background: radial-gradient(circle at 75px 75px, blue, purple); left: 1200px; top: 0px;}
-  100% {background: radial-gradient(circle at 75px 75px, purple, gold); left: 0px; top: 0px;}
+@keyframes orbit {
+  0%  {
+    transform: translate3d(50px, -468px, 0px);
+    background: radial-gradient(circle at 60px 60px, red, orange);
+  }
+  25% {
+    transform: translate3d(50px, 100px, 0px);
+    background: radial-gradient(circle at 60px 60px, yellow, green);
+  }
+  50% {
+    transform: translate3d(1300px, 100px, 0px);
+    background: radial-gradient(circle at 60px 60px, blue, purple);
+  }
+  75% {
+    transform: translate3d(1300px, -468px, 0px);
+    background: radial-gradient(circle at 60px 60px, gold, purple);
+  }
+  100% {
+    transform: translate3d(50px, -468px, 0px);
+    background: radial-gradient(circle at 60px 60px, white, purple);
+  }
 }
