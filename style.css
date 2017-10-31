@@ -36,13 +36,6 @@ img {
   display: block;
 }
 
-#earth {
-  margin-left:190px;
-  padding: 0px 0px 5px 0px;
-  border-bottom: none; 
-  text-align: center;
-}  
-
 #planets {
   padding: 0px 0px 5px 0px;
   border-bottom: none;
