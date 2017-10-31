@@ -6,6 +6,7 @@ body {
 
 h1, h2 {
   text-align: center;
+  font-weight: bold;
 }
 
 table {
@@ -21,19 +22,24 @@ tr {
   padding: 0px 0px 10px 0px; 
 }
 
-th#earth {
-  margin-left:190px;
-  margin-right: auto;
+img {
+  margin: auto;
+  padding: 0px;
+  vertical-align: middle;
   display: block;
+}
+
+#earth {
+  margin-left:190px;
   padding: 0px 0px 5px 0px;
   border-bottom: none; 
+  text-align: center;
 }  
 
-th#jupiter {
-  margin: auto;
-  display: block;
+#planets {
   padding: 0px 0px 5px 0px;
   border-bottom: none;
+  text-align: center;
 }
 
 th{
@@ -49,7 +55,7 @@ td{
   padding: 0px 0px 5px 0px;
 }
 
-/*CSS for animated background*/
+/*CSS for animated image*/
 
 .circle {
   display: block;
