@@ -90,8 +90,8 @@ td{
   float: left;
   background: white;
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 10.9px;
+  width: 10.9px;
   position: relative;
   animation: orbit 10s infinite;
 }
@@ -103,10 +103,10 @@ td{
   float: left;
   background: white;
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 120px;
+  width: 120px;
   position: relative;
-  animation: orbit 119s infinite;
+  animation: orbit2 119s infinite;
 }
 
 .circle3 {
@@ -116,10 +116,10 @@ td{
   float: left;
   background: white;
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 103.6px;
+  width: 103.6px;
   position: relative;
-  animation: orbit 295s infinite;
+  animation: orbit3 295s infinite;
 }
 
 .circle4 {
@@ -129,31 +129,100 @@ td{
   float: left;
   background: white;
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 42.5px;
+  width: 42.5px;
   position: relative;
-  animation: orbit 1650s infinite;
+  animation: orbit4 1650s infinite;
 }
 
 @keyframes orbit {
   0%  {
-    transform: translate3d(50px, -620px, 0px);
-    background: radial-gradient(circle at 60px 60px, red, orange);
+    transform: translate3d(0px, -600px, 0px);
+    background: radial-gradient(circle at 75px 75px, green, blue);
   }
   25% {
-    transform: translate3d(50px, -8px, 0px);
-    background: radial-gradient(circle at 60px 60px, yellow, green);
+    transform: translate3d(0px, -5px, 0px);
+    background: radial-gradient(circle at 75px 75px, green, blue);
   }
   50% {
-    transform: translate3d(1300px, -8px, 0px);
-    background: radial-gradient(circle at 60px 60px, blue, purple);
+    transform: translate3d(1300px, -5px, 0px);
+    background: radial-gradient(circle at 75px 75px, green, blue);
+  }
+  75% {
+    transform: translate3d(1300px, -600px, 0px);
+    background: radial-gradient(circle at 75px 75px, green, blue);
+  }
+  100% {
+    transform: translate3d(0px, -600px, 0px);
+    background: radial-gradient(circle at 75px 75px, green, blue);
+  }
+}
+
+@keyframes orbit2 {
+  0%  {
+    transform: translate3d(0px, -620px, 0px);
+    background: radial-gradient(circle at 75px 75px, brown, orange);
+  }
+  25% {
+    transform: translate3d(0px, -5px, 0px);
+    background: radial-gradient(circle at 75px 75px, brown, orange);
+  }
+  50% {
+    transform: translate3d(1300px, -5px, 0px);
+    background: radial-gradient(circle at 75px 75px, brown, orange);
   }
   75% {
     transform: translate3d(1300px, -620px, 0px);
-    background: radial-gradient(circle at 60px 60px, gold, purple);
+    background: radial-gradient(circle at 75px 75px, brown, orange);
   }
   100% {
-    transform: translate3d(50px, -620px, 0px);
-    background: radial-gradient(circle at 60px 60px, white, purple);
+    transform: translate3d(0px, -620px, 0px);
+    background: radial-gradient(circle at 75px 75px, brown, orange);
+  }
+}
+
+@keyframes orbit3 {
+  0%  {
+    transform: translate3d(0px, -620px, 0px);
+    background: radial-gradient(circle at 75px 75px, white, yellow);
+  }
+  25% {
+    transform: translate3d(0px, -5px, 0px);
+    background: radial-gradient(circle at 75px 75px, white, yellow);
+  }
+  50% {
+    transform: translate3d(1300px, -5px, 0px);
+    background: radial-gradient(circle at 75px 75px, white, yellow);
+  }
+  75% {
+    transform: translate3d(1300px, -620px, 0px);
+    background: radial-gradient(circle at 75px 75px, white, yellow);
+  }
+  100% {
+    transform: translate3d(0px, -620px, 0px);
+    background: radial-gradient(circle at 75px 75px, white, yellow);
+  }
+}
+
+@keyframes orbit4 {
+  0%  {
+    transform: translate3d(0px, -620px, 0px);
+    background: radial-gradient(circle at 75px 75px, white, blue);
+  }
+  25% {
+    transform: translate3d(0px, -5px, 0px);
+    background: radial-gradient(circle at 75px 75px, white, blue);
+  }
+  50% {
+    transform: translate3d(1300px, -5px, 0px);
+    background: radial-gradient(circle at 75px 75px, white, blue);
+  }
+  75% {
+    transform: translate3d(1300px, -620px, 0px);
+    background: radial-gradient(circle at 75px 75px, white, blue);
+  }
+  100% {
+    transform: translate3d(0px, -620px, 0px);
+    background: radial-gradient(circle at 75px 75px, white, blue);
   }
 }
