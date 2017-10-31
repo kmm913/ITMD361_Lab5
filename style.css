@@ -21,9 +21,19 @@ tr {
   padding: 0px 0px 10px 0px; 
 }
 
-th#earth{
+th#earth {
   margin-left:190px;
+  margin-right: auto;
+  display: block;
   padding: 0px 0px 5px 0px;
+  border-bottom: none; 
+}  
+
+th#jupiter {
+  margin: auto;
+  display: block;
+  padding: 0px 0px 5px 0px;
+  border-bottom: none;
 }
 
 th{
