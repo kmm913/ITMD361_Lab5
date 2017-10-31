@@ -84,7 +84,10 @@ td{
 /*CSS for animated image*/
 
 .circle {
+  margin: 0px;
+  padding: 0px;
   display: block;
+  float: left;
   background: white;
   border-radius: 50%;
   height: 50px;
@@ -93,25 +96,64 @@ td{
   animation: orbit 10s infinite;
 }
 
+.circle2 {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  float: left;
+  background: white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  animation: orbit 119s infinite;
+}
+
+.circle3 {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  float: left;
+  background: white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  animation: orbit 295s infinite;
+}
+
+.circle4 {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  float: left;
+  background: white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  animation: orbit 1650s infinite;
+}
+
 @keyframes orbit {
   0%  {
-    transform: translate3d(50px, -468px, 0px);
+    transform: translate3d(50px, -620px, 0px);
     background: radial-gradient(circle at 60px 60px, red, orange);
   }
   25% {
-    transform: translate3d(50px, 100px, 0px);
+    transform: translate3d(50px, -8px, 0px);
     background: radial-gradient(circle at 60px 60px, yellow, green);
   }
   50% {
-    transform: translate3d(1300px, 100px, 0px);
+    transform: translate3d(1300px, -8px, 0px);
     background: radial-gradient(circle at 60px 60px, blue, purple);
   }
   75% {
-    transform: translate3d(1300px, -468px, 0px);
+    transform: translate3d(1300px, -620px, 0px);
     background: radial-gradient(circle at 60px 60px, gold, purple);
   }
   100% {
-    transform: translate3d(50px, -468px, 0px);
+    transform: translate3d(50px, -620px, 0px);
     background: radial-gradient(circle at 60px 60px, white, purple);
   }
 }
