@@ -31,3 +31,14 @@ td{
   text-align: left;
   padding: 0px 0px 5px 0px;
 }
+
+/*CSS for animated background*/
+
+.circle {
+  display: block;
+  background: white;
+  border-radius: 50%;
+  height: 5px;
+  width: 5px;
+  margin: 0;
+}
