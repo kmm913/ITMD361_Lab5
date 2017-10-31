@@ -13,17 +13,24 @@ table {
   margin-left: auto;
   margin-right: auto;
   padding: 0px;
+  border-collapse: collapse;
 }
 
 tr {
   width:100%;
-  padding: 0px 0px 10px 0px;
+  padding: 0px 0px 10px 0px; 
+}
+
+th#earth{
+  margin-left:190px;
+  padding: 0px 0px 5px 0px;
 }
 
 th{
   width:100%;
   text-align: left;
   padding: 0px 0px 5px 0px;
+  border-bottom: 2px solid white;
 }
 
 td{
